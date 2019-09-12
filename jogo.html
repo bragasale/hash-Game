@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="style.css">    
+    <script src="brain.js"></script>
+    
+</head>
+<body>
+    <div id="dvmenu">
+        <div id="dvQuemComeca"></div>
+        <button id="btn" onclick="startButton(this.value)">Iniciar Jogo</button>
+    </div>
+    <div id="dvjogo">
+        <div id="1" class="pLB posJogo" onclick="palyerTurn(this.id)"></div>
+        <div id="2" class="pLB posJogo" onclick="palyerTurn(this.id)"></div>
+        <div id="3" class="pB posJogo" onclick="palyerTurn(this.id)"></div>
+        <div id="4" class="pLB posJogo" onclick="palyerTurn(this.id)"></div>
+        <div id="5" class="pLB posJogo" onclick="palyerTurn(this.id)"></div>
+        <div id="6" class="pB posJogo" onclick="palyerTurn(this.id)"></div>
+        <div id="7" class="pL posJogo" onclick="palyerTurn(this.id)"></div>
+        <div id="8" class="pL posJogo" onclick="palyerTurn(this.id)"></div>
+        <div id="9" class="posJogo" onclick="palyerTurn(this.id)"></div>
+    </div>
+</body>
+</html>
